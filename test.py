@@ -1,5 +1,5 @@
 import openai
-openai.api_key = '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'
+openai.api_key = 'API_KEY'
 model_engine = 'text-davinci-003'
 prompt = str(input())
 completion = openai.Completion.create(
